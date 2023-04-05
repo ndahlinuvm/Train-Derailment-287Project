@@ -89,7 +89,6 @@ Track Damage Cost
 Total Damage Cost
 Primary Accident Cause
 Contributing Accident Cause
-Accident Cause
 Engineers On Duty
 Firemen On Duty
 Conductors On Duty
