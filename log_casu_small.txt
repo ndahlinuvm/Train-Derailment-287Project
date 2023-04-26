@@ -1,0 +1,45 @@
+                                      Results: Logit
+==========================================================================================
+Model:                       Logit                    Pseudo R-squared:         0.184     
+Dependent Variable:          Casualty                 AIC:                      91566.6803
+Date:                        2023-04-25 22:14         BIC:                      91875.1504
+No. Observations:            215849                   Log-Likelihood:           -45753.   
+Df Model:                    29                       LL-Null:                  -56069.   
+Df Residuals:                215819                   LLR p-value:              0.0000    
+Converged:                   0.0000                   Scale:                    1.0000    
+No. Iterations:              35.0000                                                      
+------------------------------------------------------------------------------------------
+                                       Coef.  Std.Err.     z     P>|z|    [0.025   0.975] 
+------------------------------------------------------------------------------------------
+Report Year                           -0.0018   0.0000 -103.1183 0.0000   -0.0019  -0.0018
+Accident Year                          1.2427 139.4494    0.0089 0.9929 -272.0730 274.5585
+Accident Month                         6.6599 191.3104    0.0348 0.9722 -368.3015 381.6214
+Maintenance Accident Year             -1.2412 139.4494   -0.0089 0.9929 -274.5569 272.0745
+Maintenance Accident Month            -6.6543 191.3104   -0.0348 0.9723 -381.6158 368.3071
+Hazmat Cars                            0.0106   0.0014    7.3400 0.0000    0.0078   0.0134
+Hazmat Cars Damaged                   -0.0527   0.0141   -3.7301 0.0002   -0.0804  -0.0250
+Hazmat Released Cars                   0.2079   0.0284    7.3166 0.0000    0.1522   0.2636
+Temperature                            0.0045   0.0004   12.0508 0.0000    0.0038   0.0052
+Train Speed                           -0.0061   0.0008   -7.4500 0.0000   -0.0078  -0.0045
+Maximum Speed                          0.0566   0.0007   75.8190 0.0000    0.0551   0.0580
+Head End Locomotives                  -0.0787   0.0075  -10.5091 0.0000   -0.0933  -0.0640
+Mid Train Manual Locomotives           0.0001   0.0416    0.0022 0.9982   -0.0814   0.0816
+Mid Train Remote Locomotives          -0.2717   0.0477   -5.6951 0.0000   -0.3652  -0.1782
+Rear End Manual Locomotives           -0.0660   0.0374   -1.7654 0.0775   -0.1393   0.0073
+Rear End Remote Locomotives            0.1612   0.0412    3.9106 0.0001    0.0804   0.2420
+Derailed Head End Locomotives          0.6022   0.0115   52.5879 0.0000    0.5798   0.6247
+Derailed Mid Train Manual Locomotives  0.5497   0.1350    4.0733 0.0000    0.2852   0.8142
+Derailed Mid Train Remote Locomotives  0.4669   0.1481    3.1520 0.0016    0.1766   0.7572
+Derailed Rear End Manual Locomotives   0.2396   0.1082    2.2138 0.0268    0.0275   0.4517
+Derailed Rear End Remote Locomotives  -0.1759   0.1710   -1.0285 0.3037   -0.5111   0.1593
+Loaded Freight Cars                   -0.0044   0.0004  -11.9335 0.0000   -0.0051  -0.0037
+Loaded Passenger Cars                 -0.0270   0.0046   -5.8499 0.0000   -0.0361  -0.0180
+Empty Passenger Cars                   0.0044   0.0100    0.4422 0.6583   -0.0151   0.0239
+Cabooses                               0.0011   0.0045    0.2512 0.8016   -0.0077   0.0099
+Derailed Loaded Freight Cars          -0.0521   0.0027  -19.1206 0.0000   -0.0574  -0.0467
+Derailed Loaded Passenger Cars         0.3893   0.0255   15.2458 0.0000    0.3392   0.4393
+Derailed Empty Freight Cars           -0.0506   0.0036  -14.1135 0.0000   -0.0576  -0.0435
+Derailed Empty Passenger Cars          0.1342   0.0427    3.1452 0.0017    0.0506   0.2179
+Derailed Cabooses                      0.0038   0.0029    1.3129 0.1892   -0.0019   0.0094
+==========================================================================================
+

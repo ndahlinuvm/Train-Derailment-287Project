@@ -1,0 +1,48 @@
+                                      Results: Logit
+===========================================================================================
+Model:                        Logit                    Pseudo R-squared:         0.262     
+Dependent Variable:           deaths                   AIC:                      22860.8187
+Date:                         2023-04-25 22:19         BIC:                      23200.1357
+No. Observations:             215849                   Log-Likelihood:           -11397.   
+Df Model:                     32                       LL-Null:                  -15448.   
+Df Residuals:                 215816                   LLR p-value:              0.0000    
+Converged:                    0.0000                   Scale:                    1.0000    
+No. Iterations:               35.0000                                                      
+-------------------------------------------------------------------------------------------
+                                       Coef.  Std.Err.    z     P>|z|    [0.025     0.975] 
+-------------------------------------------------------------------------------------------
+Report Year                           -0.0031   0.0001 -61.4798 0.0000    -0.0032   -0.0030
+Accident Year                          1.2016 112.2407   0.0107 0.9915  -218.7862  221.1894
+Accident Month                         7.6183 927.2595   0.0082 0.9934 -1809.7769 1825.0136
+Maintenance Accident Year             -1.2018 112.2407  -0.0107 0.9915  -221.1896  218.7860
+Maintenance Accident Month            -7.6050 927.2595  -0.0082 0.9935 -1825.0003 1809.7902
+Day                                    0.0023   0.0023   0.9880 0.3232    -0.0022    0.0068
+Hazmat Cars                            0.0095   0.0030   3.1772 0.0015     0.0036    0.0153
+Hazmat Cars Damaged                   -0.0121   0.0276  -0.4388 0.6608    -0.0662    0.0420
+Hazmat Released Cars                   0.0948   0.0477   1.9862 0.0470     0.0013    0.1884
+Temperature                            0.0052   0.0007   7.5606 0.0000     0.0039    0.0066
+Train Speed                           -0.0017   0.0012  -1.4000 0.1615    -0.0040    0.0007
+Maximum Speed                          0.0638   0.0011  58.1988 0.0000     0.0616    0.0659
+Head End Locomotives                  -0.0580   0.0177  -3.2681 0.0011    -0.0928   -0.0232
+Mid Train Manual Locomotives          -0.0147   0.0980  -0.1504 0.8804    -0.2068    0.1773
+Mid Train Remote Locomotives          -0.3569   0.1020  -3.4999 0.0005    -0.5568   -0.1570
+Rear End Manual Locomotives           -0.2171   0.0972  -2.2338 0.0255    -0.4076   -0.0266
+Rear End Remote Locomotives            0.1544   0.0822   1.8771 0.0605    -0.0068    0.3156
+Derailed Head End Locomotives          0.4884   0.0226  21.6096 0.0000     0.4441    0.5327
+Derailed Mid Train Manual Locomotives  0.2847   0.2674   1.0644 0.2871    -0.2395    0.8088
+Derailed Mid Train Remote Locomotives  0.7501   0.2392   3.1362 0.0017     0.2813    1.2188
+Derailed Rear End Manual Locomotives   0.5491   0.2228   2.4638 0.0137     0.1123    0.9858
+Derailed Rear End Remote Locomotives  -0.2936   0.4200  -0.6990 0.4845    -1.1168    0.5296
+Loaded Freight Cars                   -0.0024   0.0008  -2.8313 0.0046    -0.0041   -0.0007
+Loaded Passenger Cars                 -0.0181   0.0075  -2.4018 0.0163    -0.0329   -0.0033
+Empty Freight Cars                     0.0033   0.0008   4.1311 0.0000     0.0017    0.0048
+Empty Passenger Cars                  -0.0068   0.0270  -0.2516 0.8013    -0.0597    0.0461
+Cabooses                               0.0223   0.0167   1.3304 0.1834    -0.0105    0.0550
+Derailed Loaded Freight Cars          -0.0395   0.0056  -7.0689 0.0000    -0.0505   -0.0286
+Derailed Loaded Passenger Cars         0.0113   0.0198   0.5675 0.5704    -0.0276    0.0501
+Derailed Empty Freight Cars           -0.0762   0.0095  -7.9859 0.0000    -0.0949   -0.0575
+Derailed Empty Passenger Cars         -0.3172   0.2033  -1.5600 0.1188    -0.7157    0.0813
+Derailed Cabooses                     -0.0224   0.0295  -0.7596 0.4475    -0.0803    0.0355
+Joint CD                               0.0595   0.0343   1.7355 0.0827    -0.0077    0.1267
+===========================================================================================
+
